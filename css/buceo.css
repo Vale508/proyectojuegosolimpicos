@@ -1,0 +1,89 @@
+*{
+  text-decoration: none;
+}
+body {
+  background: linear-gradient(to bottom, 
+    #ffffff 0%,     
+    #fff5d6 30%,   
+    #f8de90 70%,   
+    #ffffff 100%   
+  );
+  min-height: 100vh;
+  background-attachment: fixed; 
+}
+.icono {
+  width: 80%;
+  margin-left: 40px;
+}
+.logoregresar{
+    width: 50px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 600px;
+  margin: 20px 0;
+}
+
+.titulo1{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+.titulo2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+.imagen1{
+  margin-left: 25%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.puntos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.tabla {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid rgb(255, 238, 0);
+  font-size: 18px;
+  text-align: center;
+}
+
+.tabla th,
+.tabla td {
+  border: 1px solid rgb(255, 238, 0);
+  padding: 10px;
+}
+
+.tabla thead {
+  background-color: #fabb0f;
+  font-weight: bold;
+}
+@media (min-width: 768px) { 
+  .icono {
+   width: 35%;
+    margin: 0 auto;     
+    display: block;
+}
+.imagen1{
+    margin: 0 auto;    
+    display: block;
+}
+.tabla{
+    width: 40%;
+    margin: 0 auto;
+}
+}
