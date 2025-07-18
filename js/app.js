@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("data/medalleria.json") 
+  fetch("http://localhost:3000/medalleria") 
     .then(res => res.json())
     .then(data => {
       data.forEach(country => {
